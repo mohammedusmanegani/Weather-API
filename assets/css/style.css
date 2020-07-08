@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+.weather-container{
+    background: #ccc;
+    text-align: center;
+}
+
+.form-container{
+    background: #ccc;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.weather{
+    font-size: 22px;
+    margin: 0;
+}
+
+.temp{
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.tempInCelsius{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.weatherdescription{
+    font-size: 23px;
+}
+
+.cityName{
+    padding-bottom: 20px;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0 10px 10px 0;
+}
+
+button{
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: #ffffff;
+}

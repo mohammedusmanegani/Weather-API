@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <form action="weather.php" method="POST">
+            <select name="country" class="countries" id="countryId" required>
+                <option value="">Select Country</option>
+            </select>
+            <select name="state" class="states" id="stateId" required>
+                <option value="">Select State</option>
+            </select>
+            <select name="city" class="cities" id="cityId" required>
+                <option value="">Select City</option>
+            </select>
+            <button type="submit">Check</button>
+        </form>
+    </div>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/countrystatecity.js"></script>
+</body>
+
+</html>
